@@ -1,0 +1,519 @@
+@media screen and (min-width:1024px) and (max-width:1440px){
+    /* INTRO */
+   
+    .logo::before{
+        right: 140px;
+    }
+    .logo::after{
+        left: 140px;
+    }
+    .fd-col1 img{
+        width: 69px;
+    }
+    .fd-col1{
+        width: 90px;
+        height: 90px;
+    }
+    .logo img{
+        width: 144px;
+    }
+    .rlmvBlk {
+    padding: 35px 34px;
+    }
+
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .pgIndro video{
+        object-position: 0;
+    }
+}
+@media(max-width:1024px){
+    /* INTRO */
+    .introPgTxt{
+        max-width: 400px;
+    }
+    .pgIndro video{
+        object-position: 0;
+    }
+
+    .rlmvBlk {
+    padding: 35px 20px;
+    }
+      .logo::before{
+        right: 140px;
+    }
+    .logo::after{
+        left: 140px;
+    }
+    .fd-col1 img{
+        width: 69px;
+    }
+    .fd-col1{
+        width: 90px;
+        height: 90px;
+    }
+    .logo img{
+        width: 144px;
+    }
+    .Ftr-Logo {
+        width: auto;
+    }
+    .Ftr-Logo img {
+        width: 250px;
+}
+/* COMPANY */
+    .RL-blk{
+        display: block;
+    }
+    .RLBlk-img{
+        width: 100%;
+    }
+    .rlBlk-Cnt{
+        width: 100%;
+    }
+    /* PRODUCTS */
+     .prCnt h3{
+         font-size: 20px;
+    }
+    .prImg {
+        width: 35%;
+    }
+    .prImg img{
+        width: 100%;
+        height: auto;
+    }
+    .prCnt{
+        width: 65%;
+    }
+    /* CLIENT */
+     .clntImg{
+            width: 30%;
+         }
+}
+@media(max-width:999px){
+    /* INTRO */
+    .introPgTxt h3{
+        font-size: 20px;
+    }
+    .introPgTxt{
+        max-width: 350px;
+    }
+
+    .toggle{
+        padding-left: 0;
+    }
+    .introLogo{
+        padding-right: 0;
+    }
+    .introPgTxt{
+        margin-top: 40px;
+    }
+    /* .MenuBar ul li {
+        padding: 5px 16px;
+    } */
+    .RLBlk-img {
+        margin-top: 0;
+    }
+
+    .logo-container{
+        display: block;
+    }
+    .logo::before{
+        display: none;
+    }
+    .logo::after{
+        display: none;
+    }
+    .logo {
+        margin: 40px 0;
+    }
+    .contSec{
+        border-right: none;
+    }
+    .Fd-col{
+        margin-bottom: 30px;
+    }
+
+    /* COMPANY */
+    .RL-blk{
+        display: flex;
+        padding: 20px 0;
+    }
+    .RLBlk-img{
+        width: 15%;
+    }
+    .RLBlk-img img{
+        width: 60px;
+        margin-top: 0;
+    }
+    .rlBlk-Cnt{
+        width: 85%;
+    }
+    .comTxt{
+        padding: 15px 0;
+    }
+    .rlMv-blk{
+        margin: 15px 0;
+    }
+     .premium-blk {
+        padding:  60px 0;
+     }
+    /* PRODUCTS */
+    .prImg img{
+        width: 100%;
+        height: 100%;
+    }
+    /* CLIENT */
+     .clntImg{
+        width: 40%;
+        padding: 15px;
+    }
+    /* INDUSTRIAL PRODUCT */
+    .indusPrImg{
+        justify-content: left;
+    }
+    /* FOOTER */
+    .contact-blk .col-md-6{
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media(max-width:768px){
+    /* INTRo */
+    .navMenu{
+        padding-top: 20px;
+        position: relative;
+    }
+    .mainMenu{
+        top: 110px;
+    }
+    .introLogo a img {
+        width: 140px;
+    }
+    /* .introTxt{
+        display: block;
+    } */
+    /* NAV */
+    .mobtoggle{
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        right: 30px;
+        top: 30px;
+    }
+     /* .toggle{
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        right: 30px;
+        top: 30px;
+    } */
+    .mobtoggle span{
+        display: block;
+        width: 35px;
+        height: 3px;
+        background-color: var(--primary-color);
+        margin-bottom: 5px;
+    }
+      .mobtoggle span{
+        transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+       
+    }
+    
+    .mobtoggle.open span:nth-child(2){
+        width: 0;
+  
+    }
+    .mobtoggle.open span:nth-child(1){
+        transform: rotate(45deg) translate(4px, 4px);
+        background-color: #fff;
+    }
+    .mobtoggle.open span:nth-child(3) {
+        transform: rotate(-46deg) translate(7px, -7px);
+        background-color: #fff;
+    }
+      .MenuBar{
+        border-top: none;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-color);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(10px);
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        overflow-y: auto;
+        z-index: 2;
+        padding: 50px 30px;
+    }
+    .MenuBar ul{
+        display: block;
+        margin:70px auto;
+    }
+    .MenuBar ul li{
+        /* text-align: center; */
+        padding-bottom: 10px;
+    }
+    .MenuBar ul li a{
+        font-weight: 600;
+        font-size: 22px;
+        color: #ffffe8;
+    }
+    .MenuBar.show{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .arrow {
+        display: block;
+    }
+    .submenu{
+        width: 100%;
+        position: relative;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .4s ease;
+    }
+    .submenu ul{
+        margin: 0;
+        padding: 8px 30px;
+    }
+    .submenu ul li{
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .submenu ul li a{
+        padding: 6px 0;
+    }
+    .nav_link{
+         color: var(--primary-color) !important;
+    }
+    .contact-card{
+        justify-content: left;
+    }
+    .Ftr-Logo img {
+        width: 180px;
+    }
+    .contact-card {
+        margin: 10px 0;
+    }
+      
+    /* .cont-head{
+        justify-content: left;
+    } */
+    .contact-info p span{
+        display: inline;
+    }
+    .cntSec{
+        padding: 15px 0;
+    }
+    .prImg {
+        width: 30%;
+    }
+    .prCnt{
+        width: 70%;
+    }
+    /* FOOTER */
+    .cnt-colImg{
+        width: 25%;
+    }
+    .contact-info{
+       width: 80%;       
+    }
+    .cont-adr{
+        width: 100%;
+    }
+   .cntct-blk .row .col-md-6 {
+    justify-content: left ;
+}
+}
+@media(max-width:662px){
+    .pgIndro{
+        height: 50vh;
+        min-height: 402px;
+    }
+    .introSce{
+        padding: 20px;
+        display: block;
+        background-color: #4f4f4f;
+        height: auto;
+        min-height: 412px;
+    }
+    .pgIndro .introPgTxt, .pgIndro .copyRight{
+        display: none;
+    }
+    .introSce .introPgTxt{
+        margin-top: 0;
+        border-left: 0;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .introSce .copyRight{
+        position: relative;
+        padding: 0 15px;
+        bottom: 0;
+    }
+    .introPgTxt h3 {
+        font-size: 18px;
+    }
+    .introPgTxt p {
+        font-size: 15px;
+    }
+    .copyRight p{
+        font-size: 15px;
+    }
+    .enterWeb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin: 20px 0;
+    }
+    .enterWeb a{
+        width: fit-content;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 30px;
+        color: #fff;
+        transition: 0.3s all;
+    }
+    .enterWeb a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+}
+@media(max-width:600px){
+    /* INTRO */
+    .navMenu{
+        padding: 15px 20px 0;
+    } 
+    .introLogo a img {
+        width: 130px;
+    }
+    .mainMenu{
+        top: 110px;
+        left: 30px;
+        padding: 20px 30px;
+    }
+      /* COMPANY */
+    .whyRL_div h2 {
+        font-size: 28px;
+    }
+    .premium-blk {
+        padding: 0;
+    }
+    .prem_head h2{
+        margin-bottom: 0;
+        font-size: 26px;
+    }
+    .rlImg{
+        padding-top: 0;
+    }
+    .RlIcon {
+        width: 20%;
+    }
+    .cntSec{
+        gap: 10px;
+    }
+    .logo img{
+        width: 160px;
+    }
+    .rlMv-blk{
+        display: block;
+    }
+    .rlTxt {
+        width: 100%;
+    }
+    .RL-mission {
+        padding: 40px 20px;
+    }
+
+
+}
+@media(max-width:425px){
+    /* iNTRo */
+    .fd-colmn h4 span {
+        display: contents;
+    }
+    .MenuBar ul li a {
+        font-size: 20px;
+    }
+     .submenu ul{
+        margin: 0;
+        padding: 8px 15px;
+    }
+    .arrow {
+        width: 10px;
+        height: 10px;
+    }
+    .introLogo img {
+        width: 250px;
+    }
+     .navButtons{
+        display: block;
+    }
+    .NavBtn{
+        margin: 10px auto;
+    }
+    .contact-blk {
+    padding: 30px 0 30px;
+    }
+    /* .fd-dept{
+        padding-left: 43px;
+    } */
+    
+    .prmTxt h3{
+        font-size: 22px;
+    
+    }
+    .cntct-blk{
+        padding-left: 0;
+    }
+    .RlIcon img{
+        width: 40px;
+    }
+    /* PRODUCT */
+    .prdcts-col{
+        padding:  0 15px;
+    }
+    .prdct-blk {
+        display: block;
+    }
+    .prCnt{
+        width: 100%;
+    }
+    .prImg {
+        width: 40%;
+    }
+    .clntImg{
+        width: 50%;
+        padding: 10px;
+    }
+    .comTxt h3 {
+        font-size: 22px;
+    }
+    .prem_head h2 {
+        font-size: 24px;
+    }
+    .rlTxt h3 {
+        font-size: 24px;
+    }
+        .whyRL_div h2 {
+        font-size: 24px;
+    }
+    .accordion {
+        font-size: 17px;
+    }
+    /* FOOTER */
+    .contact-blk .container{
+        padding: 0;
+    }
+    .pgLogo img {
+        width: 140px;
+    }
+}

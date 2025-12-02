@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:#95713d;
+    --secondary-color:#ffffe8
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+li{
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+img{
+    max-width: 100%;
+}
+section{
+    padding-top: 80px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333333; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #020202; 
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.msEgle [data-aos=zoom-in]{
+    transform: scale(0.96) ;
+}
+
+.msEgle [data-aos=fade-up]{
+    transform: translate3d(0, 30px, 0);
+}
+.msEgle [data-aos=fade-down]{
+    transform: translate3d(0, -30px, 0);
+}
+
+.msEgle [data-aos=fade-right]{
+    transform: translate3d(-40px, 0, 0);
+}
